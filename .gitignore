@@ -137,3 +137,14 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+# Dependency directory (don't upload the heavy modules)
+node_modules/
+
+# SECRETS - Never upload this!
+.env
+
+# System files
+.DS_Store
+*.log
